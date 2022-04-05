@@ -1,10 +1,13 @@
 import React from 'react'
-import Card from '../Card/Card'
+import Info from '../Info/Info'
+import Teachers from '../Teachers/Teachers'
+
 
 function Main() {
     return (
         <div>
-           <Card></Card>
+            <Info />
+            <Teachers/>
         </div>
   )
 }
